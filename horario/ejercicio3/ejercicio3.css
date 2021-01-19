@@ -1,0 +1,27 @@
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto; 
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+} 
+td {
+    border: 1px solid black;
+    padding: 1em 1em;
+}   
+.No,.problem,.for,.aweb {
+    background-color: lightskyblue
+}
+.profesional,.as {
+    background-color: lightgreen;
+}
+.you {
+    background-color: orange;
+}
+.will,.see {
+    background-color: rgb(216, 62, 62);
+}
+.in,.afew,.minutes {
+    background-color: lightblue;
+}

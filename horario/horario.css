@@ -1,0 +1,70 @@
+body {
+    padding: 2em;
+    max-width: 1024px;
+}
+
+table {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; 
+    table-layout: fixed;
+    border-collapse: collapse;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+th, td {
+    border: 1px solid black;
+    padding: 0 1em;
+}    
+table > caption {
+    font-size: 0.8rem;
+    color: red;
+    caption-side: bottom;
+    padding: 1em;
+}
+thead th:first-child{
+    border: none;
+}
+
+th {
+    padding: 0.6em;
+}
+.BAE {
+    background-color: yellow;
+}
+.ETS {
+    background-color: burlywood;
+}
+.FOL {
+    background-color: palevioletred;
+}
+.LNT {
+    background-color: orange;
+}
+.PRO {
+    background-color: violet;
+}
+.SSF {
+    background-color: greenyellow;
+}
+.LND {
+    background-color: lightskyblue;
+}
+.descanso {
+    background-color: grey;
+}
+.LND:hover{
+    border: black solid 2px;
+    font-weight: bold;
+    font-size: 2em;
+}
+.hora:hover {
+    background-color: red;
+    font-size: 1.5em;
+}
+.hora {
+    padding: 0.4em;
+}
+
